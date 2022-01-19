@@ -5,6 +5,6 @@ public class MultiThreadThing2 implements Runnable {
 
     @Override
     public void run() {
-        pa.testPrimeNumber(25, 100);
+
     }
 }
