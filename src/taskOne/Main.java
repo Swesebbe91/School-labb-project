@@ -1,6 +1,7 @@
 package taskOne;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -9,27 +10,27 @@ public class Main {
 
     public static void main(String[] args) {
 
-        List<Person> employees = getEmployees();
+        List<Person> employees = getEmployees(); //Hämtar anställda
 
-
-        List<Person> femaleEmployees = employees.stream()
+        List<Person> femaleEmployees = employees.stream() //Hämtar alla kvinnor i listan
                 .filter(person -> person.getGender().equals(Gender.FEMALE))
                 .collect(Collectors.toList());
 
-       List<Person> maleEmployees = employees.stream()
-               .filter(person -> person.getGender().equals(Gender.MALE))
-               .collect(Collectors.toList());
+        List<Person> maleEmployees = employees.stream() //Hämtar alla män i listan
+                .filter(person -> person.getGender().equals(Gender.MALE))
+                .collect(Collectors.toList());
 
-        System.out.println(femaleEmployees);
-        System.out.println(maleEmployees);
+        getAverageSalaries(femaleEmployees); // Metod som räknar ut medelinkomsten för kvinnor
+        getAverageSalaries(maleEmployees); // Metod som räknar ut medelinkomsten för män
+        getMaxSalary(employees); //Metod som räknar ut högsta inkomsten in inmatad lista
+        getLowestSalary(employees); //Metod som räknar ut lägsta inkomsten i inmatad lista
 
-        System.out.println(getAverageSalaries(femaleEmployees));
-        System.out.println(getAverageSalaries(maleEmployees));
 
 
 
     }
-    private static List<Person> getEmployees () {
+
+    private static List<Person> getEmployees() { //Metod för att hämta nya personer till en lista
         return List.of(
                 new Person("Sebastian", Gender.MALE, 30_000),
                 new Person("John", Gender.MALE, 22_000),
@@ -43,13 +44,29 @@ public class Main {
                 new Person("Mattias", Gender.MALE, 29_000)
         );
     }
-    public static String getAverageSalaries(List<Person> Salaries) {
 
-        double salary = Salaries.stream()
+    public static void getAverageSalaries(List<Person> salaryList) { //Metod som tar ut medelinkomsten i listan som skickas in
+
+        double salary = salaryList.stream()
                 .mapToDouble(Person::getSalary)
                 .average().getAsDouble();
-                return String.format("The average salary is %.1f kr", salary);
+        System.out.println(String.format("The average salary is %.1f kr", salary));
 
     }
+
+    public static void getMaxSalary(List<Person> salaryList) { //Metod som tar ut högsta inkomsten i listan som skickas in
+        double maxSalary = salaryList.stream()
+                .mapToDouble(Person::getSalary)
+                .max().getAsDouble();
+        System.out.println("The highest salary in the list is: " + maxSalary);
+    }
+
+    public static void getLowestSalary(List<Person> salaryList) { //Metod som tar ut lägsta inkomsten i listan som skickas in
+        double lowestSalary = salaryList.stream()
+                .mapToDouble(Person::getSalary)
+                .min().getAsDouble();
+        System.out.println("The lowest salary in the list is " + lowestSalary);
+    }
+
 
 }
