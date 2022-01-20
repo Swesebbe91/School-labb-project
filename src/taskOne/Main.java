@@ -26,8 +26,6 @@ public class Main {
         getLowestSalary(employees); //Metod som räknar ut lägsta inkomsten i inmatad lista
 
 
-
-
     }
 
     private static List<Person> getEmployees() { //Metod för att hämta nya personer till en lista
