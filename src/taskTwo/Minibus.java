@@ -4,10 +4,10 @@ package taskTwo;
 public class Minibus extends Car {
 
     public Minibus() {
-        super("Renault","Trafic", "Bensin", 9);
+        super("Renault", "Trafic", TypeOfCar.PETROL, 9);
     }
 
-    public Minibus(String brand, String model, String type, int seats) {
+    public Minibus(String brand, String model, TypeOfCar type, int seats) {
         super(brand, model, type, seats);
     }
 

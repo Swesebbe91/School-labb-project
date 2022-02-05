@@ -1,33 +1,28 @@
 package taskTwo;
 
+import lombok.Data;
 
-import lombok.Getter;
-import lombok.Setter;
-
-@Getter
-@Setter
+@Data
 
 abstract public class Car {
     String Brand;
     String model;
-    String type;
+    TypeOfCar type;
     int seats;
 
-    public Car(String brand, String model, String type, int seats) {
+    public Car(String brand, String model, TypeOfCar type, int seats) {
         this.Brand = brand;
         this.model = model;
         this.type = type;
         this.seats = seats;
-
     }
-
 
     @Override
     public String toString() {
         return "Car{" +
                 "Brand='" + Brand + '\'' +
                 ", model='" + model + '\'' +
-                ", type='" + type + '\'' +
+                ", type=" + type +
                 ", seats=" + seats +
                 '}';
     }

@@ -1,13 +1,13 @@
 package taskTwo;
 
-public class Kombi extends Car {
+public class Tesla extends Car {
 
-    public Kombi() {
-        super("Volvo", "V60", TypeOfCar.DIESEL, 5);
+    Tesla() {
+        super("Tesla", "Model X", TypeOfCar.ELETRIC, 5);
     }
 
-    public Kombi(String brand, String model, TypeOfCar type, int seats) {
-        super(brand, model, TypeOfCar.ELETRIC, seats);
+    Tesla(String brand, String model, TypeOfCar type, int seats) {
+        super(brand, model, type, seats);
     }
 
     public void setSeats(int seats) {
@@ -19,11 +19,12 @@ public class Kombi extends Car {
 
     @Override
     public String toString() {
-        return "Kombi{" +
+        return "Tesla{" +
                 "Brand='" + Brand + '\'' +
                 ", model='" + model + '\'' +
-                ", type='" + type + '\'' +
+                ", type=" + type +
                 ", seats=" + seats +
                 '}';
     }
 }
+

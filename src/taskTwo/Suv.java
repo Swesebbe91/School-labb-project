@@ -5,10 +5,10 @@ public class Suv extends Car {
 
 
     public Suv() {
-        super("Nissan", "Qashqai", "hybrid-bil", 5);
+        super("Nissan", "Qashqai", TypeOfCar.HYBRID, 5);
     }
 
-    public Suv(String brand, String model, String type, int seats) {
+    public Suv(String brand, String model, TypeOfCar type, int seats) {
         super(brand, model, type, seats);
     }
 

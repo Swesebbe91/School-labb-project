@@ -4,21 +4,19 @@ public class PrimeNumber {
     public void tryTest(int start, int stop) {
 
         for (int i = start; i < stop; i++) {
+            boolean isAPrimeNumber = tryPrimeNumber(i);
 
-            boolean bool = isAPrimeNumber(i);
-
-            if (bool == true) {
-                System.out.println("Siffran " + i + " är ett primtal " + bool);
+            if (isAPrimeNumber) {
+                System.out.println("Number " + i + " is a primenumber");
             }
             try {
-                Thread.sleep(1000);
+                Thread.sleep(500);
             } catch (InterruptedException e) {
             }
         }
-
     }
 
-    public boolean isAPrimeNumber(int number) {
+    public boolean tryPrimeNumber(int number) {
 
         if (number <= 1) {
             System.out.println("It is not a prime number");
