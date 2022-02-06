@@ -38,12 +38,12 @@ public class Main {
         );
     }
 
-    private static void getAverageSalaries(List<Person> salaryList, Gender f) { //Metod som tar ut medelinkomsten i listan som skickas in
+    private static void getAverageSalaries(List<Person> salaryList, Gender gender) { //Metod som tar ut medelinkomsten i listan som skickas in
 
         double salary = salaryList.stream()
                 .mapToDouble(Person::getSalary)
                 .average().getAsDouble();
-        System.out.println(String.format("The average salary for the %sS is %.2f kr", Gender.valueOf(f.name()), salary));
+        System.out.println(String.format("The average salary for the %sS is %.2f kr", Gender.valueOf(gender.name()), salary));
     }
 
     private static void getMaxSalary(List<Person> salaryList) { //Metod som tar ut högsta inkomsten i listan som skickas in
