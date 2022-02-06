@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fab24af1-6e34-4885-bafd-347b3729ff66" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../School project labb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../School project labb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/School project labb/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/School project labb/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/School project labb/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/School project labb/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/School project labb/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/School project labb/School project labb.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/School project labb/taskFour/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/School project labb/taskFour/MultithreadThing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/School project labb/taskFour/PrimeNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/School project labb/taskOne/Gender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/School project labb/taskOne/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/School project labb/taskOne/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/School project labb/taskThree/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/School project labb/taskTwo/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/School project labb/taskTwo/CarFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/School project labb/taskTwo/Kombi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/School project labb/taskTwo/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/School project labb/taskTwo/Minibus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/School project labb/taskTwo/Suv.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/School project labb/taskTwo/Tesla.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/School project labb/taskTwo/TypeOfCar.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24jgIWBkRrk9nNEg8Z4xVpMRWRj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Skolprojekt labb" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="taskTwo.Main" />
+      <module name="School project labb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taskTwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="taskThree.Main" />
+      <module name="School project labb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taskThree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="taskFour.Main" />
+      <module name="School project labb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taskFour.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="taskOne.Main" />
+      <module name="School project labb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taskOne.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fab24af1-6e34-4885-bafd-347b3729ff66" name="Changes" comment="" />
+      <created>1644149330722</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644149330722</updated>
+      <workItem from="1644149331998" duration="147000" />
+      <workItem from="1644149562143" duration="94000" />
+      <workItem from="1644149876654" duration="2216000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
